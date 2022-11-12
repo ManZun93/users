@@ -179,13 +179,17 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 
 .user-card:hover {
-  box-shadow: 0px 0px 5px 0.5px rgba(2, 45, 100, 0.9);
+  box-shadow: 0px 0px 5px 0.5px rgba(1, 29, 66, 0.9);
+  background: #040a2e36;
+  
+  
 }
 
 .buttons {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  
 }
 
 
@@ -193,8 +197,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   font-size: larger;
   padding: 3px 5px;
   border-radius: 5px;
-  border: none;
-  background: #000f2d00;
+  background: #2d000000;
+  
 }
 
 .appearance:hover{
