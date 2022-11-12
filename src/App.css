@@ -135,15 +135,18 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   overflow-y: scroll;
   scroll-behavior: smooth;
   border: white solid 20px;
+  border-right: none;
 }
 
 
 @media (max-width: 600px) {
   .users-list {
-    width: 65%;
+    width: 75%;
     margin: auto;
     margin-bottom: 30px;
     padding-left: 0;
+    
+
     
   }
 }
@@ -164,6 +167,13 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   
 }
 
+@media (max-width: 600px) {
+  .user-card {
+    width: 80%;
+    margin: auto;
+
+  }
+}
 
 
 
