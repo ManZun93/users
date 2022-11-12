@@ -143,6 +143,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     width: 65%;
     margin: auto;
     margin-bottom: 30px;
+    padding-left: 0;
     
   }
 }
@@ -206,9 +207,16 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 @media (max-width: 600px) {
-  .header-users, h1, p{
+  .header-users > h1 {
     text-align: center;
     padding: 0;
     margin: 0;
+   }
+}
+
+@media (max-width: 600px) {
+  .header-users > p {
+    text-align: center;
+    
    }
 }
